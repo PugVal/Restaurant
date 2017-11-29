@@ -5,8 +5,9 @@ import java.util.List;
 public class Restaurant
 {
     private int id;
+    private int userId;
     private String name;
-      private List<Meal> meals;
+    private List<Meal> meals;
 
     public int getId() {
         return id;
@@ -32,10 +33,19 @@ public class Restaurant
         this.meals = meals;
     }
 
+    public int getUserId() {
+        return userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
+
     @Override
     public String toString() {
         return "Restaurant{" +
                 "id=" + id +
+                ", userId=" + userId +
                 ", name='" + name + '\'' +
                 ", meals=" + meals +
                 '}';
