@@ -6,8 +6,7 @@ public class Restaurant
 {
     private int id;
     private String name;
-    private long votes;
-    private List<Meal> meals;
+      private List<Meal> meals;
 
     public int getId() {
         return id;
@@ -25,14 +24,6 @@ public class Restaurant
         this.name = name;
     }
 
-    public long getVotes() {
-        return votes;
-    }
-
-    public void setVotes(long votes) {
-        this.votes = votes;
-    }
-
     public List<Meal> getMeals() {
         return meals;
     }
@@ -46,7 +37,6 @@ public class Restaurant
         return "Restaurant{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", votes=" + votes +
                 ", meals=" + meals +
                 '}';
     }

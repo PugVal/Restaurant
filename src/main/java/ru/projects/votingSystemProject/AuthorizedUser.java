@@ -4,7 +4,7 @@ import static ru.projects.votingSystemProject.model.User.VOTES_PER_DAY;
 
 public class AuthorizedUser
 {
-    private static int id =1;
+    private static int id;
 
     public static int getId() {
         return id;

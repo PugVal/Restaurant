@@ -5,6 +5,7 @@ public class Meal
     private int id;
     private String name;
     private double price;
+    private Restaurant restaurant;
 
     public int getId() {
         return id;
@@ -30,12 +31,21 @@ public class Meal
         this.price = price;
     }
 
+    public Restaurant getRestaurant() {
+        return restaurant;
+    }
+
+    public void setRestaurant(Restaurant restaurant) {
+        this.restaurant = restaurant;
+    }
+
     @Override
     public String toString() {
         return "Meal{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", price=" + price +
+                ", restaurant=" + restaurant +
                 '}';
     }
 }
