@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.projects</groupId>
-    <artifactId>votingSystemProject</artifactId>
+    <artifactId>Restaurant</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
@@ -28,7 +28,7 @@
 
 
     <build>
-        <finalName>Voting Management System</finalName>
+        <finalName>Restaurant</finalName>
         <defaultGoal>package</defaultGoal>
         <plugins>
             <plugin>
