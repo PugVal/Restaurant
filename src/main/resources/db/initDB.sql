@@ -26,6 +26,7 @@ CREATE TABLE restaurants (
   id                 SERIAL PRIMARY KEY,
   user_id INTEGER NOT NULL,
   name               TEXT      NOT NULL,
+  votes               INT      NOT NULL ,
   FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE
 );
 

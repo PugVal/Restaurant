@@ -11,9 +11,9 @@ INSERT INTO user_roles (role, user_id) VALUES
   ('ROLE_ADMIN', 1),
   ('ROLE_USER', 2);
 
-INSERT INTO restaurants (user_id, name) VALUES
-  (1, 'Mc Donald'),
-  (2, 'Tempo');
+INSERT INTO restaurants (user_id, name, votes) VALUES
+  (1, 'Mc Donald', 0),
+  (2, 'Tempo', 0);
 
 INSERT INTO  meals (name, price, restaurant_id) VALUES
   ('tobacco chicken', 2, 1),

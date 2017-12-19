@@ -8,6 +8,7 @@ public class Restaurant
     private int userId;
     private String name;
     private List<Meal> meals;
+    private int votes;
 
     public int getId() {
         return id;
@@ -41,6 +42,14 @@ public class Restaurant
         this.userId = userId;
     }
 
+    public int getVotes() {
+        return votes;
+    }
+
+    public void setVotes(int votes) {
+        this.votes = votes;
+    }
+
     @Override
     public String toString() {
         return "Restaurant{" +
@@ -48,6 +57,7 @@ public class Restaurant
                 ", userId=" + userId +
                 ", name='" + name + '\'' +
                 ", meals=" + meals +
+                ", votes=" + votes +
                 '}';
     }
 }
