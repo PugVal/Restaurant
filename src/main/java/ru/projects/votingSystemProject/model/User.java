@@ -11,7 +11,7 @@ public class User
     private String password;
     private Date votingDateTime = new Date();
     private Set<Role> roles;
-    public static final int VOTES_PER_DAY = 1;
+    private static final int VOTES_PER_DAY = 1;
 
     public int getId() {
         return id;
